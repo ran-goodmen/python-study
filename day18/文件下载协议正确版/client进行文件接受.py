@@ -11,6 +11,7 @@ def cycle_recv(client, file, file_size):
         data = client.recv(10000)
         file.write(data)
         total += len(data)
+        # 显示下载进度
         print("\r %5.2f%s" % (total/file_size*100, "%"), end="")
 
 
