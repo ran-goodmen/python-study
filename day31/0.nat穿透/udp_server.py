@@ -11,7 +11,7 @@ from socket import *
 udp_socket = socket(AF_INET, SOCK_DGRAM)
 
 # 2. 绑定本地的相关信息，需要使用阿里云的内网地址
-local_addr = ('183.129.206.230', 8000)  # ip地址和端口号，ip一般不用写，表示本机的任何一个ip
+local_addr = ('118.89.86.117', 8000)  # ip地址和端口号，ip一般不用写，表示本机的任何一个ip
 udp_socket.bind(local_addr)
 
 # 3. 等待接收对方发送的数据

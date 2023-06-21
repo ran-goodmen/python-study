@@ -14,7 +14,7 @@ udp_socket = socket(AF_INET, SOCK_DGRAM)
 # 注意 是元组，ip是字符串，端口是数字
 
 # 2.这里是服务器的IP地址和端口
-dest_addr = ('183.129.206.230', 8000)
+dest_addr = ('118.89.86.117', 8000)
 
 # 3. 从键盘获取数据
 send_data = input("请输入要发送的数据:")
