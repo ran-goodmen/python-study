@@ -1,0 +1,3 @@
+2023-07-03 15:35:44,315 - &(filename)s[line:16] - WARNING:这是logging warning message
+2023-07-03 15:35:44,316 - &(filename)s[line:17] - ERROR:这是logging error message
+2023-07-03 15:35:44,316 - &(filename)s[line:18] - CRITICAL:这是logging critical message

@@ -1,0 +1,4 @@
+2023-07-03 16:16:47,678 - &(filename)s[line:31] - INFO:这是logging info message
+2023-07-03 16:16:47,678 - &(filename)s[line:32] - WARNING:这是logging warning message
+2023-07-03 16:16:47,678 - &(filename)s[line:33] - ERROR:这是logging error message
+2023-07-03 16:16:47,678 - &(filename)s[line:34] - CRITICAL:这是logging critical message
